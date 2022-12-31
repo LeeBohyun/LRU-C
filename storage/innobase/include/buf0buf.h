@@ -1465,6 +1465,7 @@ struct buf_page_t{
 	buf_pool->mutex for writes only @see enum buf_io_fix */
 	byte		io_fix;
 	/* lbh */
+	// For LRU-C
 	ibool		LRU_batch_write_victim;
 	ibool		aio_write_finished;
 
@@ -1974,6 +1975,7 @@ struct buf_pool_t{
 					/*!< base node of the
 					unzip_LRU list */
 	/* lbh */
+	// For LRU-C
 	buf_page_t*	LRU_oldest_clean_page;
 	ibool reached_LRU_oldest_clean_page;
 	os_event_t  b_event;
@@ -2033,7 +2035,8 @@ Use these instead of accessing buf_pool->mutex directly. */
 } while (0)
 
 
-/* lbh ver3*/
+/* lbh */
+// For LRU-C
 /** Test if flush list mutex is owned. */
 #define buf_LRU_dirty_tail_list_mutex_own(b) mutex_own(&b->LRU_dirty_tail_list_mutex)
 
