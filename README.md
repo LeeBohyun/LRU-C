@@ -16,7 +16,7 @@ Modified parts in files are marked with ```For LRU-C``` with comments in the sou
 - ```buf0flu.cc```
 - ```buf0buf.cc```
 - ```buf0lru.h```
-- ```buf0flu.h```
+- ```buf0buf.h```
 
 ## How to run TPC-C@MySQL with LRU-C
 
