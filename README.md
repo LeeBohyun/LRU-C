@@ -27,6 +27,6 @@ $ unzip main.zip
 ```
 
 2. Build and initialize MySQL. Conider ```LRU-C-main``` as ```mysql-5.6.26``` from the installation guide link.
-- Installation guide link: [Insgallation Guide](https://github.com/LeeBohyun/mysql-tpcc/blob/master/installation_guide/how-to-install-and-run-mysql-tpcc.md)
+- Installation guide link: [Installation Guide](https://github.com/LeeBohyun/mysql-tpcc/blob/master/installation_guide/how-to-install-and-run-mysql-tpcc.md)
 
 3. Run TPC-C and check out the result!
