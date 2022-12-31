@@ -8,7 +8,7 @@ To make database I/Os parallel and thus leverage the parallelism in flash SSDs, 
 
 ## Link to slides
 The pdf file summarizes the main concept of LRU-C. I hope you can better understand our paper with this slide. 
-Slide Link: [Link](https://drive.google.com/file/d/1FgjDNfjSeSQgjwSQBYEz5nEardbZRJ1B/view?usp=sharing)
+- Slide Link: [Link](https://drive.google.com/file/d/1FgjDNfjSeSQgjwSQBYEz5nEardbZRJ1B/view?usp=sharing)
 
 ## Modified files
 Modified parts in files are marked with ```For LRU-C``` with comments in the source code.
