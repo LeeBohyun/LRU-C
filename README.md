@@ -11,7 +11,7 @@ The pdf file summarizes the main concept of LRU-C. I hope you can better underst
 - Slide Link: [Link](https://drive.google.com/file/d/1FgjDNfjSeSQgjwSQBYEz5nEardbZRJ1B/view?usp=sharing)
 
 ## Modified files
-Modified parts in files are marked with ```For LRU-C``` with comments in the source code.
+Modified parts in files are marked with ```For LRU-C``` with comments in the source code. Modifications are made only in the following files in ```LRU-C/storage/innobase/buf``` and ```LRU-C/storage/innobase/include```.
 - ```buf0lru.cc```
 - ```buf0flu.cc```
 - ```buf0buf.cc```
